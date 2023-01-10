@@ -35,7 +35,7 @@ We will utilize the Openweathermaps API to retrieve weather data from 500-700 ra
 - **Python:** Programming language used to build automated auditing solution
     - **Pandas:** Open source Python library providing high performance analysis tools
     - **Matplotlib:** Open source Python library used for graphing and plotting
-    - **Numpy:** Open source Python library used for advance scientific computing
+    - **Numpy:** Open source Python library used for advanced scientific computing
 - **Openweathermap API:** API access to Openweather map data
 - **Google Maps API:** API access to Google Maps visualization
 - **Jupyter Notebook:** Open source web based application used to run our python code
