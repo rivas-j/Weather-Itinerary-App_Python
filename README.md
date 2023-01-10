@@ -1,55 +1,43 @@
-<!--- 
-Use Case: This readme template is designed for readable documentation of portfolio projects
-File Structure: Place this readme in the main project folder, make sure there is an images folder containing all screenshots for the image links to properly work
---->
-
-# Project Name
+# Vacation Itinerary App with Python and APIs
 
 <div align="center">
-    <img src=images/image.jpg>
+    <img src=Resources/travel.jpg>
 </div>
 
-## <div align="center">Short blurb describing what the tool does</div>
+## <div align="center">Build a Travel Itinerary Generator using Python and APIs</div>
 
 <p align="center">
 <a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
 <a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
-<a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
-<a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
-<a href="#results">Results</a> &nbsp;&bull;&nbsp;
-<a href="#summary">Summary</a>
+<a href="#tools-used">Tools Used</a>
 </p>
 
 # <div align="center">Goals</div>
 
-What should be true after this project is implemented? The objective is to demonstrate the project's value. Edit for clarity and remove any language specific to curriculum (i.e. fictional names, narratives). Make the report seem like a case study, not an assignment. Include a high-level overview of the analysis so that recruiters with limited technical knowledge can understand what your project is about without drilling down.  The key is to make everything easy for employers so they can review more of your work.
+- Collect and analyze weather data across cities worldwide. PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences. 
 
-Sample: Puppy Analysis answers the question, how many puppies were adopted from shelters across the United States during the 2020 Covid-19 pandemic. Observes a total number of dogs adopted, breed demographics, and the number of dogs adopted by a state.”
+- Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data. 
+
+    ![WeatherPy Travel Map](Vacation_Search/WeatherPY_Vacation_map.png)
+
+- From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, we will create a travel route between the four cities as well as a marker layer map.
+
+    ![WeatherPy Travel Map](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 
 # <div align="center">Dataset</div>
 
-High level explanation of data source
+We will utilize the Openweathermaps API to retrieve weather data from 500-700 randomly generated geographic coordinates. This data will be saved in a CSV file.
 
-- [Data Set File Name:](data/data_source.format) Explain source of file, size of dataset and format
+- [Weather Database:](Weather_Database/WeatherPy_Database.csv) Weather data for 693 geographic coordinates, in CSV format
 
 # <div align="center">Tools Used</div>
-- **Tool 1:** Tool purpose
-- **Tool 2:** Tool purpose
+- **Python:** Programming language used to build automated auditing solution
+    - **Pandas:** Open source Python library providing high performance analysis tools
+    - **Matplotlib:** Open source Python library used for graphing and plotting
+    - **Numpy:** Open source Python library used for advance scientific computing
+- **Openweathermap API:** API access to Openweather map data
+- **Google Maps API:** API access to Google Maps visualization
+- **Jupyter Notebook:** Open source web based application used to run our python code
 
-
-# <div align="center">Analysis and Challenges</div>
-In depth detail on steps taken to solve problem, including tools and how we modeled the data, include screenshots and code snippets
-
-![Image title](images/image.jpg)
-
-```
-Code snippet
-```
-
-# <div align="center">Results</div>
-
-
-# <div align="center">Summary</div>
-
-[Back to top](#project-name)
+[Back to top](#vacation-itinerary-app-with-python-and-apis)
